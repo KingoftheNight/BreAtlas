@@ -90,7 +90,7 @@ def function_sftest(args):
 def breatlas():
     parser = argparse.ArgumentParser(
         description='Blood routine examination atlas.')  # 创建解析器对象
-    subparsers = parser.add_subparsers(help='IRAP help') # 创建子解释器对象
+    subparsers = parser.add_subparsers(help='Breatlas help') # 创建子解释器对象
     # split
     ParserSplit = subparsers.add_parser('split', help='Split csv file.')  # 创建子功能
     ParserSplit.add_argument('-f', '--file', nargs=1, help='input file name')  # 添加参数
