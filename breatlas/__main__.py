@@ -87,7 +87,7 @@ def function_sftest(args):
         
 
 # 参数解析 ####################################################################
-def main():
+def breatlas():
     parser = argparse.ArgumentParser(
         description='Blood routine examination atlas.')  # 创建解析器对象
     subparsers = parser.add_subparsers(help='IRAP help') # 创建子解释器对象
@@ -133,4 +133,4 @@ def main():
 
 # main
 if __name__ == '__main__':
-    main()
+    breatlas()
