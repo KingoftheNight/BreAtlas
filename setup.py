@@ -8,10 +8,10 @@ setup(name='breatlas',
     author_email='1694822092@qq.com',
     license='BSD 2-Clause',
     packages=['breatlas'],
-    install_requires=['numpy', 'scikit-learn', 'skrebate', 'pandas', 'scipy', 'matplotlib'],
+    install_requires=['numpy', 'scikit-learn', 'skrebate', 'pandas', 'scipy', 'matplotlib', 'seaborn'],
     entry_points={
         'console_scripts': [
-        'breatlas=breatlas.__main__:main',
+        'breatlas=breatlas.__main__:breatlas',
             ]
         },
     python_requires=">=3.6",
